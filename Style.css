@@ -1,0 +1,193 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+* {
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: sans-serif;
+}
+
+html,body{
+width:100%;
+height:100%
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+    color: rgba(58, 58, 58, 0.945);
+}
+.para p{
+    text-align: center;
+    color: grey;
+    font-size: 18px;
+    margin-top: 15px;
+    line-height: 1.5;
+    transition: .2s ease-in-out
+}
+.header{
+    height: 70px;
+    width: 100%;
+    position: relative;
+}
+.logo{
+    margin-top: 5px;
+    margin-left: 30px;
+    display: inline-block;
+}
+.contact{
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    right: 50px;
+}
+.contact p{
+    display: inline-block;
+    color: rgba(75, 73, 73, 0.856);
+    font-size: 15px;
+    font-weight: 600;
+}
+.navbar{
+    width: 100%;
+    height: 65px;
+    background-color: rgb(54, 54, 54);
+    margin-top: 10px;
+    position: relative;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: .2s ease-in-out;
+}
+.navbar a:hover{
+    color: red;
+}
+.navbar li{
+    list-style: none;
+    float: left;
+    margin-left: 35px;
+    margin-top: 1.8%;
+}
+.basket{
+    border: none;
+    position: absolute;
+    border-radius: 7px;
+    height: 40px;
+    width: 150px;
+     right: 40px;
+    top: 13px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(73, 72, 72, 0.884);
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+.basket:hover{
+    background-color: red;
+    color: white;
+}
+.products{
+    height: 1800px;
+    width: 100%;
+    margin-top: 50px;
+}
+.dry img{
+    width: 350px;
+    height: 300px;
+}
+.dry{
+    text-align: center;
+    width: 352px;
+    height: 400px;
+    background-color: rgb(223, 222, 222);
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 21px;
+    border: 2px solid grey;
+    overflow: hidden;
+    display: inline-block;
+}
+.dry p{
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.dry p a{
+    text-decoration: none;
+    color: rgba(44, 44, 44, 0.973);
+    transition: .2s ease-in-out;
+}
+.dry p a:hover{
+    color: red;
+}
+.dry button{
+    height: 37px;
+    width: 110px;
+    border: none;
+    background-color: red;
+    color: rgba(255, 255, 255, 0.842);
+    font-weight: bold;
+    border-radius: 20px;
+    font-size: 16px;
+    margin-top: 17px;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+.dry button:hover{
+    background-color: rgb(66, 66, 66);
+}
+.foot{
+    text-align: center;
+    height: 400px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: .8;
+    transition: .2s ease-in-out;
+}
+.foot p{
+    color:rgb(66, 66, 66);
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+.foot:hover{
+    opacity: 1;
+}
+.credit{
+    background-color: rgb(0, 0, 0);
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+}
+.credit a{
+    text-decoration: none;
+}
+.ico img{
+    height: 50px;
+    width: 50px;
+}
+.ico{
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+}
+.icon{
+    background-color: red;
+    text-align: center;
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 50%;
+}
+.icon img{
+    height: 30px;
+    width: 30px;
+    margin-top: 27%;
+}
